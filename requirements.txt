@@ -1,0 +1,6 @@
+argparse
+threading
+requests
+colorama
+art
+pycryptodome
