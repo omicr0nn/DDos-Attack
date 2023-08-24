@@ -3,4 +3,3 @@ threading
 requests
 colorama
 art
-pycryptodome
