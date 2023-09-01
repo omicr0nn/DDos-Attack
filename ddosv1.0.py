@@ -1,4 +1,3 @@
-# Developed by omicr0n
 import argparse
 import threading
 import requests
