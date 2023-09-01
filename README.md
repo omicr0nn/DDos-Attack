@@ -7,7 +7,7 @@ cd DDos-Attack
 
 pip install -r requirements.txt
 
-python ddos.py -method GET -threads 9999999 -target <!Target Website>
+python ddosv1.0.py -method GET -threads 9999999 -target <!Target Website>
 
 # With ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
