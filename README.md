@@ -11,7 +11,8 @@ To use DDos, follow these steps:
 
 1. If you don't have Python installed, download and install it from the [official Python website](https://www.python.org/downloads/).
 2. Install the required libraries by typing `pip install -r requirements.txt' in the terminal or command prompt.
-3. Launch the attack using the command ```bash python ddosv1.py -target https://example.com/ -methods GET -threads <threads>```
+3. Launch the attack using the command ```bash
+4. python ddosv1.py -target https://example.com/ -methods GET -threads <threads> ```
 
 ![Kali](https://i.imgur.com/wqxvFjq.png)
 
