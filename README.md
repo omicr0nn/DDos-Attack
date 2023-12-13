@@ -1,9 +1,5 @@
 # DDoS-Atack
 
-![Example](https://i.imgur.com/JYmNXyt.png)
-
-It is a fast and effective DDoS attack tool. This tool was developed for educational purposes only and is intended for legitimate and legal uses.
-
 ## Features
 - Supports various HTTP methods (GET, POST, etc.).
 - Ability to send multiple requests to the target site at the same time.
@@ -16,6 +12,10 @@ To use DDos, follow these steps:
 1. If you don't have Python installed, download and install it from the [official Python website](https://www.python.org/downloads/).
 2. Install the required libraries by typing `pip install -r requirements.txt' in the terminal or command prompt.
 3. Launch the attack using the command 'python ddosv1.py -target https://example.com/ -methods GET -threads <threads>'.
+
+![Example](https://i.imgur.com/JYmNXyt.png)
+
+It is a fast and effective DDoS attack tool. This tool was developed for educational purposes only and is intended for legitimate and legal uses.
 
 ## Warning
 This tool is for educational purposes only. Illegal use carries liability and users must act entirely at their own risk.
