@@ -13,8 +13,6 @@ To use DDos, follow these steps:
 2. Install the required libraries by typing `pip install -r requirements.txt' in the terminal or command prompt.
 3. Launch the attack using the command 'python ddosv1.py -target https://example.com/ -methods GET -threads <threads>'.
 
-![Windows](https://i.imgur.com/JYmNXyt.png)
-
 ![Kali](https://i.imgur.com/wqxvFjq.png)
 
 It is a fast and effective DDoS attack tool. This tool was developed for educational purposes only and is intended for legitimate and legal uses.
