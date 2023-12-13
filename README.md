@@ -1,6 +1,6 @@
 # DDoS-Atack
 
-![Example]([https://imgur.com/JYmNXyt](https://imgur.com/JYmNXyt))
+![Example](https://i.imgur.com/JYmNXyt.png)
 
 It is a fast and effective DDoS attack tool. This tool was developed for educational purposes only and is intended for legitimate and legal uses.
 
