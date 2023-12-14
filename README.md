@@ -18,6 +18,10 @@ Launch the attack using the following command:
 python ddosv1.py -target https://example.com/ -methods GET -threads <threads>
 ```
 
+Also he can use replit:
+
+<p align="left"><a href="https://replit.com/@omicr0n/ddospy"><img src="https://skillicons.dev/icons?i=replit"></a></p>
+
 ![Kali](https://i.imgur.com/wqxvFjq.png)
 
 It is a fast and effective DDoS attack tool. This tool was developed for educational purposes only and is intended for legitimate and legal uses.
