@@ -19,7 +19,7 @@ python ddosv1.py -target https://example.com/ -methods GET -threads <threads>
 ```
 
 Also he can use replit:
-![Replit](https://replit.com/@omicr0n/ddospy)
+[Replit]
 <p align="left"><a href="https://replit.com/@omicr0n/ddospy"><img src="https://skillicons.dev/icons?i=replit"></a></p>
 
 ![Kali](https://i.imgur.com/wqxvFjq.png)
